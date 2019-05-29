@@ -1,0 +1,244 @@
+body{
+    font-family: 'Teko', sans-serif;
+    background-color: white;
+    font-size: 20px;
+
+}
+
+
+.pad{
+    padding:5%;
+}
+
+section{
+    position:relative;
+    min-height:100vh;
+    width: 100%;
+    margin-top:0;
+    border-top:5px;
+    border-color:black;
+}
+
+section:nth-child(even){
+
+    background-color:white;
+
+}
+.pro{
+    background-color:rgb(83, 125, 179);
+}
+
+.progress{
+    background-color:gray;
+}
+
+section:nth-child(odd){
+    background-color:rgb(185, 185, 185);
+
+}
+
+#home{
+    background-image: url("../img/fondo.jpg");
+    background-position: 0% 0%;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+#logo{
+    position:absolute;
+    width: 10%;
+    height: 70%;
+    left: 0;
+    top: 25%;
+
+}
+
+#navbar{
+    position: relative;
+    background-color:transparent;
+    list-style:none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right:5%;
+    font-size: 100%;
+
+}
+
+li{
+    padding: 2%;
+
+}
+
+a{
+    color:white;
+    font-size: 40px;
+}
+
+a:link{
+    text-decoration:none;
+}
+
+a:hover{
+    color: rgb(83, 125, 179);
+}
+
+#work{
+    text-align: center;
+
+}
+
+#p{
+    text-align:center;
+
+}
+
+h1{
+    margin:3px;
+    font-family: 'Shadows Into Light';
+    font-size:100px;
+    color:rgb(83, 125, 179);
+
+}
+
+
+
+h2{
+    font-size:70px;
+}
+
+.p{
+
+    font-size: 20px;
+}
+
+.col-md-4 {
+
+    margin-left:33%
+}
+
+#snarky, #cleanote, #spam{
+
+  width:50vh;
+
+
+}
+
+#josep{
+
+    margin-left:20%;
+}
+
+#presentacion{
+    color:white;
+    font-family:'Shadows Into Light';
+    text-align:center;
+    font-size:7vw;
+    padding:0%;
+}
+
+#presentacion2 , #presentacion3{
+    color:transparent;
+}
+
+
+#txt2, #txt3, #txt4{
+    padding:3%;
+    text-align:center;
+}
+
+#motivation{
+    font-size: 6vw;
+    text-align:center;
+    padding:5%;
+}
+
+
+
+#myVideo{
+    display: block;
+    margin: 0 auto;
+
+}
+
+#cvv, #btns{
+    text-align:center;
+}
+
+#color{
+    background-color: white;
+}
+
+
+
+.typewriter{
+    color: #fff;
+    font-family: 'Shadows Into Light';
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid transparent; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation:
+      typing 2.5s steps(30, end),
+      blink-caret .5s step-end 6;
+  }
+
+  .typewriter2{
+    color: #fff !important;
+    font-family: 'Shadows Into Light';
+    text-align:center;
+    font-size:7vw;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid transparent; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation:
+      typing 2.5s steps(30, end),
+      blink-caret .5s step-end 4;
+  }
+
+  .typewriter3{
+    color: #fff !important;
+    font-family: 'Shadows Into Light';
+    text-align:center;
+    font-size:7vw;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid transparent; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation:
+      typing 2.5s steps(30, end),
+      blink-caret .5s step-end 1;
+  }
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+  }
+
+  .center{
+      text-align: center;
+  }
+
+
+  #imagen{
+      padding: 3%
+  }
+#start, #experiencia, #estudios, #motivaciones, #playVid, #pauseVid{
+    background-color: rgb(83, 125, 179);
+}
+
+
+#start:hover, #experiencia:hover, #estudios:hover, #motivaciones:hover, #playVid:hover, #pauseVid:hover{
+    background-color: white;
+    color: rgb(83, 125, 179);
+}
