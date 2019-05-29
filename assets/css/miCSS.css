@@ -1,11 +1,17 @@
 body{
     font-family: 'Teko', sans-serif;
     background-color: white;
-    font-size: 20px;
+    font-size: 2vw;
 
 }
-
-
+.div1{
+    background-image: linear-gradient(transparent, white);
+    height:200px;
+    width:100%;
+    z-index:10;
+    position:absolute;
+    top:72vh;
+}
 .pad{
     padding:5%;
 }
@@ -19,9 +25,9 @@ section{
     border-color:black;
 }
 
-section:nth-child(even){
+section:nth-child(odd){
 
-    background-color:white;
+    background-color:rgb(185, 185, 185);
 
 }
 .pro{
@@ -32,28 +38,42 @@ section:nth-child(even){
     background-color:gray;
 }
 
-section:nth-child(odd){
-    background-color:rgb(185, 185, 185);
+section:nth-child(even){
+    background-color:white;
 
+}
+
+.imgg{
+    padding:2%; 
+    max-width: 18rem; 
+    min-width:18rem; 
+    min-height: 18rem; 
+    max-height:18rem;
+}
+
+#myVideo{
+    width:auto;
+    height: auto;
 }
 
 #home{
     background-image: url("../img/fondo.jpg");
-    background-position: 0% 0%;
+    background-position: center;
     background-repeat:no-repeat;
     background-size: cover;
 }
 
 #logo{
-    position:absolute;
-    width: 10%;
-    height: 70%;
+    position: absolute;
+    min-width: 100px;
     left: 0;
     top: 25%;
+    max-width: 100px;
 
 }
 
 #navbar{
+    top:30%;
     position: relative;
     background-color:transparent;
     list-style:none;
@@ -64,6 +84,15 @@ section:nth-child(odd){
 
 }
 
+.contact{
+    margin-top:15px;
+}
+
+#email{
+    width:130px;
+    height: 70px;
+}
+
 li{
     padding: 2%;
 
@@ -71,7 +100,7 @@ li{
 
 a{
     color:white;
-    font-size: 40px;
+    font-size: 3.8vw;
 }
 
 a:link{
@@ -95,15 +124,16 @@ a:hover{
 h1{
     margin:3px;
     font-family: 'Shadows Into Light';
-    font-size:100px;
+    font-size:10vh;
     color:rgb(83, 125, 179);
 
 }
 
 
 
+
 h2{
-    font-size:70px;
+    font-size:7vh;
 }
 
 .p{
@@ -116,16 +146,27 @@ h2{
     margin-left:33%
 }
 
-#snarky, #cleanote, #spam{
+#snarky, #cleanote{
 
   width:50vh;
 
 
 }
 
-#josep{
+#spam{
+   width: 50vh;
+   height:30vh;
+}
+.centerImg{
 
-    margin-left:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#josep{
+    width: 30vh;
 }
 
 #presentacion{
@@ -142,7 +183,7 @@ h2{
 
 
 #txt2, #txt3, #txt4{
-    padding:3%;
+    padding-bottom:4%;
     text-align:center;
 }
 
@@ -152,7 +193,9 @@ h2{
     padding:5%;
 }
 
-
+#idioma:hover{
+    color:black;
+}
 
 #myVideo{
     display: block;
@@ -162,6 +205,10 @@ h2{
 
 #cvv, #btns{
     text-align:center;
+}
+
+#btns{
+    padding:2%;
 }
 
 #color{
@@ -233,7 +280,7 @@ h2{
   #imagen{
       padding: 3%
   }
-#start, #experiencia, #estudios, #motivaciones, #playVid, #pauseVid{
+#start, #experiencia, #estudios, #motivaciones, #playVid, #pauseVid, #subtitles{
     background-color: rgb(83, 125, 179);
 }
 
@@ -242,3 +289,210 @@ h2{
     background-color: white;
     color: rgb(83, 125, 179);
 }
+
+#linkSnarky, #linkClea, #linkSpam{
+    color:rgb(83, 125, 179);
+}
+
+@media only screen and (max-width: 375px) {
+    h2 {
+      font-size: 5vh;
+    }
+    h1{
+        font-size: 6vh;
+    }
+
+    #spam{
+        width: 40vh;
+        height:25vh;
+     }
+
+    #snarky, #cleanote{
+        margin-left: auto !important;
+        width:40vh;
+      
+      }
+
+      .p{
+          font-size: 1.5vh !important;
+          padding-right: 5%;
+          padding-left: 5%;
+      }
+
+      .descargar{
+          font-size: 5vh;
+      }
+
+      #logo{
+        position: absolute;
+        min-width: 75px;
+        left: 0;
+        top: 5%;
+        max-width: 75px;
+      }
+
+      #home{
+        background-image: url("../img/fondo.jpg");
+        background-position: 75% 0%;
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
+
+    #presentacion{
+        color:white;
+        font-family:'Shadows Into Light';
+        text-align:center;
+        font-size:7vw;
+        margin-top:20%;
+        padding:0%;
+    }
+    
+    #presentacion2 , #presentacion3{
+        color:transparent;
+    }
+
+    #sectionFooter{
+        min-height: 10px!important;
+        max-height: 10px !important;
+    }
+
+    #email{
+        min-height: 50px!important;
+        max-height: 50px !important;
+        min-width: 60px!important;
+        max-width: 60px !important;
+    }
+
+  }
+
+   @media only screen and (max-width: 1035px) {
+    
+    #logo{
+        margin-left:5%;
+    }
+
+    .li{
+        display: inline;
+    }
+    #home{
+        background-image: url("../img/fondo.jpg");
+        background-position: 75% 0%;
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
+    #presentacion{
+        color:white;
+        font-family:'Shadows Into Light';
+        text-align:center;
+        font-size:4.5vw;
+        
+       
+    }
+
+    #presentacion2 , #presentacion3{
+        color:transparent;
+        font-size:4.5vw;
+    }
+
+        h2 {
+        font-size: 4vh;
+      }
+      h1{
+          font-size: 6vh;
+      }
+
+      #spam{
+        width: 40vh!important;
+        height:25vh!important;
+        margin-left: 50%;
+       
+        
+        
+     }
+
+    #snarky, #cleanote{
+        display: block !important;
+        width:40vh !important;
+        box-sizing: unset;
+        margin-left: 50%;
+      
+      }
+
+      #txt2, #txt3, #txt4{
+        padding-bottom:4%!important;
+        text-align:center!important;
+        display: block !important;
+        box-sizing: unset;
+        margin-left: 25%;
+    }
+    .skills{
+        margin-right: 5%!important;
+    }
+
+  } 
+  
+
+  @media only screen and (max-width: 768px) {
+    
+
+    .li{
+        display: inline;
+    }
+    #home{
+        background-image: url("../img/fondo.jpg");
+        background-position: 75% 0%;
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
+    #presentacion{
+        color:white;
+        font-family:'Shadows Into Light';
+        text-align:center;
+        font-size:4.5vw;
+        
+       
+    }
+
+    #presentacion2 , #presentacion3{
+        color:transparent;
+        font-size:4.5vw;
+    }
+
+        h2 {
+        font-size: 4vh;
+      }
+      h1{
+          font-size: 6vh;
+      }
+
+      #spam{
+        width: 40vh!important;
+        height:25vh!important;
+        margin-left: -0%;
+       
+        
+        
+     }
+
+    #snarky, #cleanote{
+        display: block !important;
+        width:40vh !important;
+        box-sizing: unset;
+        margin-left: 25%;
+      
+      }
+
+      #txt2, #txt3, #txt4{
+        padding-bottom:4%!important;
+        text-align:center!important;
+        display: block !important;
+        margin-right: 25%!important;
+        margin-left:0%;
+        
+    }
+    .skills{
+        margin-right: 5%!important;
+    }
+
+  } 
+  
