@@ -55,6 +55,13 @@ section:nth-child(even){
     width:auto;
     height: auto;
 }
+#aboutt, #workk, #sskills, #ccv, #rss{
+    color: rgb(83, 125, 179) !important;
+}
+
+#aboutt:hover, #workk:hover, #sskills:hover, #ccv:hover, #rss:hover{
+    color: #fff !important;
+}
 
 #home{
     background-image: url("../img/fondo.jpg");
@@ -81,6 +88,7 @@ section:nth-child(even){
     justify-content: flex-end;
     margin-right:5%;
     font-size: 100%;
+    color: rgb(83, 125, 179);
 
 }
 
@@ -195,6 +203,7 @@ h2{
 
 #idioma:hover{
     color:black;
+    background-color:black;
 }
 
 #myVideo{
@@ -218,7 +227,7 @@ h2{
 
 
 .typewriter{
-    color: #fff;
+    color: rgb(83, 125, 179);
     font-family: 'Shadows Into Light';
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid transparent; /* The typwriter cursor */
@@ -231,7 +240,7 @@ h2{
   }
 
   .typewriter2{
-    color: #fff !important;
+    color: rgb(83, 125, 179); !important;
     font-family: 'Shadows Into Light';
     text-align:center;
     font-size:7vw;
@@ -246,7 +255,7 @@ h2{
   }
 
   .typewriter3{
-    color: #fff !important;
+    color: rgb(83, 125, 179); !important;
     font-family: 'Shadows Into Light';
     text-align:center;
     font-size:7vw;
