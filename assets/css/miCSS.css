@@ -349,7 +349,7 @@ h2{
     }
 
     #presentacion{
-        color:white;
+        color:rgb(83, 125, 179) !important;
         font-family:'Shadows Into Light';
         text-align:center;
         font-size:7vw;
@@ -391,7 +391,7 @@ h2{
         background-size: cover;
     }
     #presentacion{
-        color:white;
+        color:rgb(83, 125, 179) !important;
         font-family:'Shadows Into Light';
         text-align:center;
         font-size:4.5vw;
@@ -455,7 +455,7 @@ h2{
         background-size: cover;
     }
     #presentacion{
-        color:white;
+        color:rgb(83, 125, 179) !important;
         font-family:'Shadows Into Light';
         text-align:center;
         font-size:4.5vw;
