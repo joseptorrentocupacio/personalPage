@@ -178,7 +178,7 @@ h2{
 }
 
 #presentacion{
-    color: white !important;
+    color:rgb(83, 125, 179) !important;
 
     font-family:'Shadows Into Light';
     text-align:center;
@@ -228,7 +228,7 @@ h2{
 
 
 .typewriter{
-    color: white;
+    color:rgb(83, 125, 179);
     font-family: 'Shadows Into Light';
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid transparent; /* The typwriter cursor */
@@ -241,7 +241,7 @@ h2{
   }
 
   .typewriter2{
-    color: white !important;
+    color:rgb(83, 125, 179) !important;
     font-family: 'Shadows Into Light';
     text-align:center;
     font-size:7vw;
@@ -256,7 +256,7 @@ h2{
   }
 
   .typewriter3{
-    color: white !important;
+    color:rgb(83, 125, 179) !important;
     font-family: 'Shadows Into Light';
     text-align:center;
     font-size:7vw;
