@@ -55,11 +55,11 @@ section:nth-child(even){
     width:auto;
     height: auto;
 }
-#aboutt, #workk, #sskills, #ccv, #rss{
+#aboutt, #workk, #sskills, #ccv, #rrss{
     color: rgb(83, 125, 179) !important;
 }
 
-#aboutt:hover, #workk:hover, #sskills:hover, #ccv:hover, #rss:hover{
+#aboutt:hover, #workk:hover, #sskills:hover, #ccv:hover, #rrss:hover{
     color: #fff !important;
 }
 
@@ -178,7 +178,8 @@ h2{
 }
 
 #presentacion{
-    color:white;
+    color: rgb(83, 125, 179) !important;
+
     font-family:'Shadows Into Light';
     text-align:center;
     font-size:7vw;
